@@ -1,1 +1,5 @@
-This is a template that allows NCAA or NBA teams to track custom statistics. At its root, it is an html form with some JS to log the data into a csv for analysis.
+This is a template that allows NCAA or NBA teams to track custom statistics. The index.html file is the main page containing the html form.
+
+The form can be adpated in order to track other metrics, specific plays as well as defensive statistics. 
+
+With the output being a csv file, we can also run scripts for analysis.

@@ -1,0 +1,27 @@
+.intro{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.card{
+  margin:3%;
+}
+
+.tile{
+  background-color: #dbdbdb;
+  padding-bottom:2%
+}
+
+.submit{
+  margin:2%
+}
+
+.row{
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%
+}
+
+.viewalljob{
+  margin: 1%;
+}

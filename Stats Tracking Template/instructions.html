@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="tile">
+
+  <div class="intro">
+    </br>
+    <h2> Custom Stats Tracking Template - Info </h2>
+
+    <a href="index.html">
+      <button class="btn-sm btn-dark"> Stats Tracker </button>
+    </a>
+
+    <a href="">
+      <button class="btn-sm btn-dark"> GitHub Page </button>
+    </a>
+
+    <a href="mailto:kcampbell.analytics@gmail.com">
+      <button class="btn-sm btn-dark"> Contact </button>
+    </a>
+
+
+
+    <div class="card-body">
+      <h3> Purpose: </h3>
+      <p>
+        My goal with template is to provide a starting resource allowing teams to track custom statistics. There are a lot of opportunities within the framework for customization, allowing teams to build a play-by-play data set for internal statistics.
+      </p>
+
+      <h3> Usage guide: </h3>
+      <li>
+        Within the code files, one can change the variables, customize the play calls or alter the set-up to track defensive statistics.
+      </li>
+      <li>
+        Users can choose to track some or all the metrics in a given session. Leave the variable at "-" if you wish to not track the variable.
+      </li>
+      <li>
+       Once the possession is complete, press the "Submit" button to log the data in the table below.
+      </li>
+      <li>
+        The default table will display up to 100 possessions, and can be sorted by any of the columns.
+      </li>
+      <li>
+        Once the session is complete, click on the "Export CSV" button to download the data for analysis.
+      </li>
+      <li>
+        Note: This template is not linked to a database, so refreshing the url will cause data to be lost. Liking the form to a database is possible
+      </li>
+
+<br>
+
+
+      <h4 class="title">Variable Definitions:</h4>
+      <ul>
+        <li> <em> PG:</em> Point Guard who is currently in the game - Can be changed to "Combo/Swing/Wing"</li>
+        <li> <em> SG:</em> Shooting Guard who is currently in the game - Can be changed to "Combo/Swing/Wing"</li>
+        <li> <em> SF:</em> Small Forward who is currently in the game - Can be changed to "Swing/Wing"</li>
+        <li> <em> PF:</em> Power Forward who is currently in the game - Can be changed to "Swing/Wing"</li>
+        <li> <em> C: </em> Center who is currently in the game - Can be changed to "Bigs"</li>
+        <br>
+        <li> <em> Possession Start (Pos Start):</em> The type of situation that initiated the possession </li>
+        <li> <em> Play Call:</em> Custom inputs to track the play names for a team </li>
+        <li> <em> Play Movement:</em> Generalized description of the path taken by the ball during the possession</li>
+        <li> <em> Passes:</em> Number of passes (excluding inbound) during the possession </li>
+        <li> <em> Shot Selection:</em> Type of shot attempt </li>
+        <li> <em> Shot Quality:</em> Indicates if the shot attempted was open or contested</li>
+        <li> <em> Play Result:</em> Result of the actions executed during the possession</li>
+        <li> <em> Player:</em> Player who attempts the shot or turns the ball over</li>
+
+        <li> <em> Opponent:</em> Oponnent for the events</li>
+        <li> <em> Arena:</em> Home / Away / Neutral site game</li>
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+  </div>
+
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="myChart.js"></script>
+<script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" rel="stylesheet">
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+
+
+</body>
+
+</html>

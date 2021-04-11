@@ -1,4 +1,4 @@
 # Projects
-This repo is a centralized sport for my public projects. You are able to view different templates to download as well as any end-to-end projects I have made available.
+This repo is a centralized spot for my public projects. For any questions, please contact me at kcampbell.analytics@gmail.com. Thanks!
 
 

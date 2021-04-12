@@ -1,6 +1,7 @@
 <h2> Basketball Stats Tracking Template </h2>
 This is a template that allows custom stats tracking with an emphasis on play calling and team execution. The form can be altered for different metrics and to track defensive variables. 
 <br>
+<br>
 General customization for you team:
 1) Download the folder
 2) Adjust the list of player numbers in the position and player variables starting on line 40 of the index.html file

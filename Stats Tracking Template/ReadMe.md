@@ -17,7 +17,8 @@ General customization for you team:
 Published example: https://kurtisc26.github.io/Stats-Tracking/
 <br>
 <br>
-I plan on eventually releasing some Python and R files as analysis guides breaking down the csv output from the template 
+I plan on eventually releasing some Python and R files as analysis guides breaking down the csv output from the template.
+<br>
 For any questions, feel free to reach out at kcampbell.analytics@gmail.com
 
 

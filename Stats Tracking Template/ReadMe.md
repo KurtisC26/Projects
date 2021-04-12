@@ -3,12 +3,13 @@ This is a template that allows custom stats tracking with an emphasis on play ca
 <br>
 To customize for you team:
 1) Adjust the list of player numbers in the position and player variables starting on line 40 of the index.html file. 
-                <option> 1 </option>
+"<option> 1 </option>"
 
-2) Enter custom play calls starting on line____:
+2) Enter custom play calls starting on line 170:
 
+"<option> Example Play 1 </option>"
 
-
+3) Save to a local folder and track stats, download csv once the game is complete and analyze the data!
 
 <br>
 Example: https://kurtisc26.github.io/Stats-Tracking/

@@ -6,6 +6,8 @@ This repo is a centralized spot for some of my public projects:
 2) Formula 1 qualifying analysis (Computer vision / Python) <br>
 3) Flask team portal ***(IN PROGRESS)*** (Python / HTML / CSS / JS / Full-Stack Dev)
 <br>
+<br>
+
 For any questions, please contact me at kcampbell.analytics@gmail.com. Thanks!
 
 

@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %} Login {% endblock %}
+
+
+{% block content %} 
+    <form method="POST">
+        <br/>
+        <h3 align="center">Login to a team portal</h3>
+        <div class="form-group">
+            <label for='team_select'> Team </label>
+            <select class="form-control" id="team_select" name='team_select'>
+                <option>ATL	- Atlanta Hawks</option>
+                <option>BOS	- Boston Celtics</option>
+                <option>CHA	- Charlotte Hornets</option>
+                <option>CHI	- Chicago Bulls</option>
+                <option>CLE	- Cleveland Cavaliers</option>
+                <option>DAL	- Dallas Mavericks</option>
+                <option>DEN	- Denver Nuggets</option>
+                <option>DET	- Detroit Pistons</option>
+                <option>GSW	- Golden State Warriors</option>
+                <option>HOU - Houston Rockets</option>
+                <option>IND	- Indiana Pacers</option>
+                <option>LAC - Los Angeles Clippers</option>
+                <option>LAL	- Los Angeles Lakers</option>
+                <option>MEM	- Memphis Grizzlies</option>
+                <option>MIA	- Miami Heat</option>
+                <option>MIL	- Milwaukee Bucks</option>
+                <option>MIN	- Minnesota Timberwolves</option>
+                <option>NOH	- New Orleans Pelicans</option>
+                <option>NYK	- New York Knicks</option>
+                <option>BKN	- Brooklyn Nets</option>
+                <option>OKC	- Oklahoma City Thunder</option>
+                <option>ORL	- Orlando Magic</option>
+                <option>PHI	- Philadelphia 76ers</option>
+                <option>PHO	- Phoenix Suns</option>
+                <option>POR	- Portland Trail Blazers</option>
+                <option>SAC	- Sacramento Kings</option>
+                <option>TOR - Toronto Raptors</option>
+                <option>UTA - Utah Jazz</option>
+                <option>WAS - Washington Wizards</option>
+              </select>
+            </div>
+            <br/>
+            <button type="submit" class="btn btn-primary" align="center">Login</button> 
+        </div>
+        <br/>
+    </form>
+{% endblock %}
+
+
+

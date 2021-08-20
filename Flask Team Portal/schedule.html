@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %} Schedule {% endblock %}
+
+{% block text %} {% endblock %}
+
+{% block content %} 
+<br/>
+<h3 align="center">{{ user.first_name}} Schedule</h3>
+<center>
+
+<br/>
+{% for i in wins %}
+<h3>{{ i }} - {% for i in loses %} {{ i }} {% endfor %}</h3>
+ {% endfor %}
+
+ <br/>
+
+ 
+    {% for table in tables %}
+      {{ table|safe }}
+   {% endfor %}
+
+  
+
+</center>
+{% endblock %}

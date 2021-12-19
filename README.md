@@ -2,7 +2,7 @@
 
 Hello! 
 
-Welcome to my project portfolio! THe goal of this portfolio is to showcase my telents in data science, but also my business insights. 
+Welcome to my project portfolio! The goal of this portfolio is to showcase my telents in data science, but also my business insights. 
 
 The folders starting with a number ex: 2. F1 Analysis are individual projects that I have completed in my spre time. 
 
@@ -19,14 +19,6 @@ This repo is a centralized spot for some of my public projects:
 
 For any questions, please contact me at kcampbell.analytics@gmail.com. Thanks!
 
-
-<br>
-<br>
-Maybe useful datasets:
-https://www.kaggle.com/ipravin/golf-ball-testing-data-set-from-par-inc
-
-
-https://www.kaggle.com/fanbyprinciple/airport-reviews/tasks?taskId=4178
 
 
 

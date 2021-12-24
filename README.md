@@ -13,7 +13,12 @@ This repo is a centralized spot for some of my public projects:
 <br>
 1) Basketball stats tracking template (Front end dev / HTML, CSS, JS)<br>
 2) Formula 1 qualifying analysis (Computer vision / Python) <br>
-3) Flask team portal ***(IN PROGRESS)*** (Python / HTML / CSS / JS / Full-Stack Dev)
+3) Titanic survival predictions (Python ML)
+
+<br>
+
+Working on:
+ Flask team portal ***(IN PROGRESS)*** (Python / HTML / CSS / JS / Full-Stack Dev)
 <br>
 <br>
 

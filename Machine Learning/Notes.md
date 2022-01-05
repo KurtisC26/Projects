@@ -13,10 +13,23 @@ There are two feature scaling options: Standardization and normalization
 ![image](https://user-images.githubusercontent.com/58488172/148275297-31ba02e7-79b4-4780-ac2f-f4965ca1ea85.png)
 
 
-<br>
+
 <br>
 <br>
 <h2>2-Linear Regression:</h2>
 In simple linear regression, we are trying to find the minimum sum of squares between observed and predicted variables --> Ordinary Least Squares Model
 
 ![image](https://user-images.githubusercontent.com/58488172/148277600-c8df0654-340a-4160-8bba-d9cf15388c13.png)
+
+
+<br>
+<br>
+<h2>3-Multiple Linear Regression:</h2>
+Linear regression has 5 assumptions that we need to verify before we actually build and deploy a model:
+1) Linearity
+2) Homoscedasticity
+3) Multivariate normality
+4) Independence of errors
+5) Lack of multicollinearity
+
+

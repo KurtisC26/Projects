@@ -33,5 +33,17 @@ Linear regression has 5 assumptions that we need to verify before we actually bu
 4) Independence of errors<br>
 5) Lack of multicollinearity
 
-<h=3>a) P Values:</h2>
+<br>
+<br>
+<h2>Statistically Building Linear Models :</h2>
+There are 5 methods we can use to build models:<br>
+1) All-in <br>
+2) Backward elimination <br>
+3) Forward selection <br> 
+4) Bidirectional elimination <br>
+5) Score comparison <br> 
+  
+
+
+ 
 

@@ -1,1 +1,8 @@
+<h2>Data preprocessing</h2>
+
+<br>
+Although not the most exciting part, this is arguably one of the most important steps as we will prepare and clean the data set in order for the machine learning models to effectively learn and make subsequent preductions.
+
+<br>
+
 

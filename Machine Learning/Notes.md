@@ -27,21 +27,42 @@ In simple linear regression, we are trying to find the minimum sum of squares be
 <br>
 <h2>3-Multiple Linear Regression:</h2>
 Linear regression has 5 assumptions that we need to verify before we actually build and deploy a model:<br>
-1) Linearity<br>
-2) Homoscedasticity<br>
-3) Multivariate normality<br>
-4) Independence of errors<br>
-5) Lack of multicollinearity
+1) Linearity --> Relationship between variables appears to be linear<br>
+2) Homoscedasticity --> Meaning the residuals are equal across the regression line<br>
+3) Multivariate normality --> Are each one of the variables normally distributed (goodness of fit or Kolmogorov-Smirnov test)<br>
+4) Independence of errors --> occurs when the residuals are not independent from each other.  In other words when the value of y(x+1) is not independent from the value of y(x) <br>
+5) Lack of multicollinearity --> Correlation matrix, Tolerance and Variance inflation factor
 
 <br>
 <br>
 <h2>Statistically Building Linear Models :</h2>
 There are 5 methods we can use to build models: (The term "stepwise regression" refers to options 2,3,4<br>
-1) All-in --> All your variables. Should only do if you have prior knowlegde of variable influence or if you have to<br>
-2) Backward elimination --> 1.Select significance level to stay in model, fit the full model,consider the predictor with highest p-value. If P value is grater than significant level, remove it. Repeat until all values are under significance level <br>
+1) All-in <br>
+   All your variables. Should only do if you have prior knowlegde of variable influence or if you have to<br><br>
+2) Backward elimination <br>
+   Select significance level to stay in model. <br>
+   Fit the full model,consider the predictor with highest p-value. <br>
+   If P value is grater than significant level, remove it. <br>
+   Repeat until all values are under significance level <br><br>
 3) Forward selection <br> 
+   Select significance model to enter the model
+   Fit all simple regression models, select the one with the lowest p-value
+   Keep the variable and fit all possible models with the one extra predictor added to the ones you already have
+   Consider the predictor with the lowest p-value, if P < significance level, got back to step 3 otherwise model is done<br><br>
+                                                                     
 4) Bidirectional elimination <br>
-5) Score comparison <br> 
+  Select the significance level to enter and to stay in the model
+  Fit all simple regression models, select the one with the lowest p-value based on the significance level to enter
+  Once that is complete, similar to the forward selection, Then you do the backwards elimination with the pvalue to stay in the model
+  
+  
+  
+5) All possible models (Score comparison) <br>
+  Most resource intensive approach -> 2^n-1 models
+  Select a criterion of goodness (ex. R2)
+  Contruct all possible regression models
+  Select the one with the best 
+  
   
 
 

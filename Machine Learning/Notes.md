@@ -2,7 +2,7 @@ Ket notes on the concepts related to machine learning in python
 
 
 
-<h2>Preprocessing:</h2>
+<h2>1-Preprocessing:</h2>
 When preparing the data, we must only feature scale variables after we wplit the data. The reason is, scaling the data leverages key statistics such as the mean and standard deviation. If we feature scale before splitting, some of the statistics representing the train set will leak into the test set causing potential errors in the accuracy of the predictions
 <br>
 <br>
@@ -13,3 +13,10 @@ There are two feature scaling options: Standardization and normalization
 ![image](https://user-images.githubusercontent.com/58488172/148275297-31ba02e7-79b4-4780-ac2f-f4965ca1ea85.png)
 
 
+<br>
+<br>
+<br>
+<h2>2-Linear Regression:</h2>
+In simple linear regression, we are trying to find the minimum sum of squares between observed and predicted variables --> Ordinary Least Squares Model
+
+![image](https://user-images.githubusercontent.com/58488172/148277600-c8df0654-340a-4160-8bba-d9cf15388c13.png)

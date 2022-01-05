@@ -12,7 +12,8 @@ There are two feature scaling options: Standardization and normalization
 
 ![image](https://user-images.githubusercontent.com/58488172/148275297-31ba02e7-79b4-4780-ac2f-f4965ca1ea85.png)
 
-
+<b>
+When using dummy variables, it is important to sometimes omit one of the dummy variables because it will result in a colinar feature. Direct  opposite of another column
 
 <br>
 <br>
@@ -26,10 +27,11 @@ In simple linear regression, we are trying to find the minimum sum of squares be
 <br>
 <h2>3-Multiple Linear Regression:</h2>
 Linear regression has 5 assumptions that we need to verify before we actually build and deploy a model:<br>
-1)Linearity<br>
+1) Linearity<br>
 2) Homoscedasticity<br>
 3) Multivariate normality<br>
 4) Independence of errors<br>
 5) Lack of multicollinearity
 
+<h=3>a) P Values:</h2>
 

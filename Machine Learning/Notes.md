@@ -25,11 +25,11 @@ In simple linear regression, we are trying to find the minimum sum of squares be
 <br>
 <br>
 <h2>3-Multiple Linear Regression:</h2>
-Linear regression has 5 assumptions that we need to verify before we actually build and deploy a model:
-1) Linearity
-2) Homoscedasticity
-3) Multivariate normality
-4) Independence of errors
+Linear regression has 5 assumptions that we need to verify before we actually build and deploy a model:<br>
+1)Linearity<br>
+2) Homoscedasticity<br>
+3) Multivariate normality<br>
+4) Independence of errors<br>
 5) Lack of multicollinearity
 
 

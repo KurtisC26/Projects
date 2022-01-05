@@ -1,0 +1,1 @@
+Ket notes on the concepts related to machine learning in python

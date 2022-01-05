@@ -36,9 +36,9 @@ Linear regression has 5 assumptions that we need to verify before we actually bu
 <br>
 <br>
 <h2>Statistically Building Linear Models :</h2>
-There are 5 methods we can use to build models:<br>
-1) All-in <br>
-2) Backward elimination <br>
+There are 5 methods we can use to build models: (The term "stepwise regression" refers to options 2,3,4<br>
+1) All-in --> All your variables. Should only do if you have prior knowlegde of variable influence or if you have to<br>
+2) Backward elimination --> 1.Select significance level to stay in model, fit the full model,consider the predictor with highest p-value. If P value is grater than significant level, remove it. Repeat until all values are under significance level <br>
 3) Forward selection <br> 
 4) Bidirectional elimination <br>
 5) Score comparison <br> 

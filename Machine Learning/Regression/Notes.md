@@ -65,6 +65,6 @@ There are 5 methods we can use to build models: (The term "stepwise regression" 
   
   
 
-
+https://towardsdatascience.com/entropy-how-decision-trees-make-decisions-2946b9c18c8
  
 
